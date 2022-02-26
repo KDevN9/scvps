@@ -5,7 +5,7 @@ AutoScript VPN With Xray , V2Ray , OHP & Stunnel5 Core
 
 - XRay VMess / VLess / Trojan / XTLS
 - OHP Dropbear / OPenVPN
-- Trojan-GO Coming Soon
+- Trojan-GO 
 - Ubuntu 18 / 20 
 - Debian 9 & 10
 
@@ -14,8 +14,8 @@ AutoScript VPN With Xray , V2Ray , OHP & Stunnel5 Core
 - Free Domain
 - Port Changer
 - User Login Checker
-- All Service Trial (soon)
-- Backup Via Email
+- All Service Trial 
+- Backup 
 ## Price
 
 Biling Per Month & Lifetime
@@ -27,7 +27,7 @@ Biling Per Month & Lifetime
 ### Command Install
 
 ```
-rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/KDevN9/scvps/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
+apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/KDevN9/scv3/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 ```
 
 ### Fix Wireguard Not Running
